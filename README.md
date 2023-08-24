@@ -112,3 +112,13 @@ git init . : check if the .git folder is exist or not
 git status : check if there is any change in your branch
 git add file.extension : to add the file to the tracked stat
 git restore --stage file.extension : to back one step before use git add file.extension
+git commit -m "your message" : to commit your change with a message
+git push -u origin main : to push you committed files to your branch
+git checkout -B feature/lesson : to create a new branch
+git checkout main => to change to the main branch
+feature => name given to the default remote repository
+lesson => the name of a branch in the Git repository
+git branch => to check in which branch you are
+git pull =>  used to fetch and integrate changes from a remote repository into your local repository
+git remote =>
+git remote -v =>
