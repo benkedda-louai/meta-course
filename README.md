@@ -122,3 +122,4 @@ git branch => to check in which branch you are
 git pull =>  used to fetch and integrate changes from a remote repository into your local repository
 git remote =>
 git remote -v =>
+git balme file.extension => show the history of different changes that you made
