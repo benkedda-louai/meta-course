@@ -123,3 +123,5 @@ git pull =>  used to fetch and integrate changes from a remote repository into y
 git remote =>
 git remote -v =>
 git balme file.extension => show the history of different changes that you made
+meta tags:
+<meta property="og:title" content="menu" />
