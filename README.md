@@ -123,5 +123,11 @@ git pull =>  used to fetch and integrate changes from a remote repository into y
 git remote =>
 git remote -v =>
 git balme file.extension => show the history of different changes that you made
+git branch -d localBranchName => to delete a local branch
+git branch --delete RemoteBranchName => to delete a remote branch
 meta tags:
 <meta property="og:title" content="menu" />
+assignment features =>
+1\_ header main footer
+2\_ grid or flex box
+3\_ the brand logo in the header 3 column in the main content 2 column in the footer

@@ -1,0 +1,109 @@
+/* main color */
+/* #edefee */
+/* global rules */
+ul {
+    list-style-type: none;
+}
+body {
+    background-color: #edefee;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    width: 95%;
+    margin: auto;
+}
+/* Header styling */
+header img {
+    margin-top: 50px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #333333;
+    padding: 15px;
+    border-radius: 8px;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+header nav ul li {
+    font-size: 28px;
+}
+/* Main styling */
+main {
+    margin-bottom: 20px;
+}
+main .landingImg h1 {
+    color: white;
+}
+main .landingImg p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-top: 70px;
+    color: white;
+    width: 70%;
+}
+main .landingImg {
+    background-image: url('pasta.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    border-radius: 20px;
+    padding: 25px 30px;
+}
+main .card {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 50px;
+}
+main .card div {
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: #f4e5d6;
+    position: relative;
+}
+
+main .card  img {
+    width: 95%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+main .card .cardImg .mainText {
+    width: 85%;
+}
+
+main .cardImg a {
+    position: absolute;
+    bottom: 10px;
+}
+
+main .card .cardImg .date {
+    margin-left: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+footer p {
+    border-top: 1px black solid;
+    width: 50%;
+    text-align: right;
+    padding-top: 10px;
+}
+
+footer img {
+    width: 50px;
+
+}
