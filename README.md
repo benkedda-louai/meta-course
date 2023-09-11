@@ -127,7 +127,8 @@ git branch -d localBranchName => to delete a local branch
 git branch --delete RemoteBranchName => to delete a remote branch
 meta tags:
 <meta property="og:title" content="menu" />
-assignment features =>
-1\_ header main footer
-2\_ grid or flex box
-3\_ the brand logo in the header 3 column in the main content 2 column in the footer
+Hooks Ruls:
+1\_Only call hooks from a React Component function 
+2\_Only call hooks at the top level
+3\_Call multiple state or effect hooks 
+4\_Make multiple hook calls in the same sequence 
